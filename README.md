@@ -1,6 +1,7 @@
 # Faraz Rahman
+(This site is work in progress) 
 
-Welcome! (This site is work in progress btw) I am a rising Junior at the University of Pennsylvania studying in the Raj and Neera Singh program in Networked and Social Systems Engineering (NETS). In addtion, I am pursuing a second major in Mathematics as well as an Accelerated Master's in Robotics as a part of the GRASP Lab. So far, my academic interests have broadly lead me in the direction of
+Welcome! I am a rising Junior at the University of Pennsylvania studying in the Raj and Neera Singh program in Networked and Social Systems Engineering (NETS). In addtion, I am pursuing a second major in Mathematics as well as an Accelerated Master's in Robotics as a part of the GRASP Lab. So far, my academic interests have broadly lead me in the direction of
 - Deep Learning
 - Statistics and Applied Optimization
 - Controls for Robotics
