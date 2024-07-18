@@ -56,4 +56,4 @@ Recently, I have been working on explainability in Diffusion Models under the me
 
 
 
-While this site get's put together enjoy this video of me from a past life: https://www.youtube.com/watch?v=Qn062DZhWuk
+While this site gets put together enjoy this video of me from a past life: [https://www.youtube.com/watch?v=Qn062DZhWuk](https://www.youtube.com/watch?v=Qn062DZhWuk)
