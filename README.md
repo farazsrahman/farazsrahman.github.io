@@ -1,7 +1,7 @@
 # Faraz Rahman
 
 Welcome! This site is work in progress if you cannot tell... I am a rising Junior at the University of Pennsylvania studying in the Networked and Social Systems Engineering program. In addtion, I am pursuing a second major in Mathematics as well as an Accelerated Master's in Robotics as a part of GRASP Lab. So far, my academic interests have broadly lead me in the direction of
-- Machine Learning
+- Deep Learning
 - Applied Optimization
 - Statistics
 - Controls for Robotics
