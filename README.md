@@ -4,4 +4,5 @@ Welcome! This site is work in progress if you cannot tell... I am a rising Junio
 - Machine Learning
 - Applied Optimization
 - Stochastic Processs
+  
 Recently, I have been working on explainability in Diffusion Models under the mentorship of Anton Xue in Prof. Eric Wong's Brachio Lab, and helping out my friend, Will Krasnow, with engineering in his EdTech startup SwiftScore. More info on both of these projects will be posted here soon so stay tuned!
