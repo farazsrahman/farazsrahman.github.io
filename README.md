@@ -8,8 +8,7 @@ Welcome! I am a rising Junior at the University of Pennsylvania studying in the 
   
 Recently, I have been working on explainability in Diffusion Models under the mentorship of Anton Xue in Prof. Eric Wong's Brachio Lab, and helping my friend, Will Krasnow, with engineering in his EdTech startup, SwiftScore. More info on both of these projects will be posted soon so stay tuned!
 
-## For fun
-Here is a dynamic list of some of the songs I have been listening to recently
+Click [here](www.google.com) for a dynamic list of some of the songs I have been listening to recently
 
 <br>
 <br><br>
