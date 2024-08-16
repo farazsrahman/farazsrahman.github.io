@@ -2,7 +2,7 @@
 
 
 ![Photo of Faraz](https://github.com/farazsrahman/farazsrahman.github.io/blob/main/images/headshot.jpeg)
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/farazsrahman/farazsrahman.github.io/blob/main/images/headshot.jpeg" alt="drawing" width="200"/>
 
 (This site is work in progress) 
 
