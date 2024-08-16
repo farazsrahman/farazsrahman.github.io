@@ -1,8 +1,9 @@
 # Faraz Rahman
 
 
-![Photo of Faraz](https://github.com/farazsrahman/farazsrahman.github.io/blob/main/images/headshot.jpeg)
 <img src="https://github.com/farazsrahman/farazsrahman.github.io/blob/main/images/headshot.jpeg" alt="drawing" width="200"/>
+<img src="https://github.com/farazsrahman/farazsrahman.github.io/blob/main/images/IMG_0092" alt="drawing" width="200"/>
+
 
 (This site is work in progress) 
 
