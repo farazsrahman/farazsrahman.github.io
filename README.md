@@ -1,4 +1,8 @@
 # Faraz Rahman
+
+
+![Photo of Faraz](https://github.com/farazsrahman/farazsrahman.github.io/blob/main/images/headshot.jpeg)
+
 (This site is work in progress) 
 
 Welcome! I am a rising Junior at the University of Pennsylvania studying in the Raj and Neera Singh Program in Networked and Social Systems Engineering (NETS). In addition, I am pursuing a second major in Mathematics as well as an Accelerated Master's in Robotics as a part of the GRASP Lab. So far, my academic interests have broadly lead me in the direction of
