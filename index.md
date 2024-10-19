@@ -10,6 +10,8 @@ Hello! I am a Junior at Penn studying Computer Science and Mathematics. I am als
 - Applied Optimization
 - Controls for Robotics
 
-Recently, I have been working on finding [better optimization methods for multi-task representation learning](/pdfs/Optimizing_for_representation_learning.pdf) with [Thomas Zhang](https://thomaszh3.github.io/) and [Anton Xue](https://antonxue.github.io/). See more below!
+Recently, I have been working on finding better optimization methods for multi-task representation learning  with [Anton Xue](https://antonxue.github.io/) and[Thomas Zhang](https://thomaszh3.github.io/) who wrote a wonderful writeup of the project [here](/pdfs/Optimizing_for_representation_learning.pdf). 
+
+See more of my projects below!      
 
 Outside of work, I play soccer, DJ for events around campus and am involved with Penn Student Government. Contact me at farazr \[at\] seas \[dot\] upenn \[dot\] edu.
