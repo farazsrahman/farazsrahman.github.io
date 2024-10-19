@@ -5,7 +5,7 @@
     In the eary stages of my controls for robotics project, hoping to design a walking quadroped or humanoid.
   image: "/images/mujoco_dog.png"
   link: ""
-  current: true
+  current: false
 
 - title: "Optimizing for Representation Learning"
   description: >-
@@ -34,13 +34,13 @@
 
 - title: "Decision Making Diffusion Models"
   description: >-
-    (Pre-print forthcoming) Thinking of DDPMS as a stochastic process, I explore how different time intervals in the diffusion 
+    Thinking of DDPMS as a stochastic process, we explore how different time intervals in the diffusion 
     trajectory affect the features/structure that show up in the final sample. More importantly, I learned to 
     train large models on (multiple) GPUs, got my toes wet with generative modeling theory, and made a lot of
     cool friends while working on this project in Prof. Eric Wong's Brachio Lab under Anton Xue during my Sophomore summer.
   image: "/images/diffusion.png"
-  # link: ""
-  current: false
+  link: "/project/2023/10/19/decision-making-diffusion-models.html"
+  current: true
 
 
 
