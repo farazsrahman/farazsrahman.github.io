@@ -1,0 +1,3 @@
+{% for post in site.posts %}
+      <p><a href="{{ site.url | default: site.github.url }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+{% endfor %}

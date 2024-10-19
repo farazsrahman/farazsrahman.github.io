@@ -1,0 +1,59 @@
+- title: "Controls for Robotics Project"
+  description: >-
+    Longer description on the way. In the eary stages of my controls for robotics project, hoping to design a walking quadroped or humanoid.
+  short_description: >-
+    In the eary stages of my controls for robotics project, hoping to design a walking quadroped or humanoid.
+  image: "/images/mujoco_dog.png"
+  link: ""
+  current: true
+
+- title: "Optimizing for Representation Learning"
+  description: >-
+    The grand success of Deep Learning is often attributed to large models' ability to learn representations of data
+    suitable for more classical (or just simpler) machine learning methods take as input down stream. This project 
+    explores alternative algorithms that split learning representations maps (i.e. Phi) and learning task heads (i.e. F^(t)) into 
+    two seperate problems since classical methods break down or don't work well in this setting.
+  short_description: >-
+    This project explores algorithms that split model training into two parts: learning representations (i.e. Phi) 
+    and learning task heads (i.e. F^(t)). The work is motivated by the fact that classical methods don't work well in this setting.
+  image: "/images/repl.png"
+  link: "/pdfs/Optimizing_for_representation_learning.pdf"
+  current: true
+
+- title: "SwiftScore"
+  description: >-
+    SwiftScore is the world's first Assignment Management Platform -  a SaaS tool that aims to save teachers
+    time using AI-assisted grading, analytics, and remediation tools all in one. I worked on early engineering
+    for the platform, particularly on integrating our services with Google Classroom. I am still involved with
+    the company, although I am now focused on product and strategy.
+
+  image: "/images/swiftscore.png"
+  link: "https://swiftscore.org"
+  current: false
+
+
+- title: "Decision Making Diffusion Models"
+  description: >-
+    (Pre-print forthcoming) Thinking of DDPMS as a stochastic process, I explore how different time intervals in the diffusion 
+    trajectory affect the features/structure that show up in the final sample. More importantly, I learned to 
+    train large models on (multiple) GPUs, got my toes wet with generative modeling theory, and made a lot of
+    cool friends while working on this project in Prof. Eric Wong's Brachio Lab under Anton Xue during my Sophomore summer.
+  image: "/images/diffusion.png"
+  # link: ""
+  current: false
+
+
+
+- title: "TyPorch - C++ PyTorch Replica"
+  description: >-
+     TyPorch began as means for me to learn how ML works  beyond model.fit() after my freshman Big Data course, 
+     but unintentionally became my first interaction with optimization algorithms, high performance (parallel)
+     computing, C++, and shaped many of my interests throughout the rest of my time at Penn. I was able
+     to train moderately sized (10k parameter) feedforward models on toy data, but never finished working all
+     the way through benchmarking on the  MNIST dataset.
+
+  image: "/images/typorch.png"
+  link: "https://github.com/farazsrahman/TyPorch"
+  current: false
+
+

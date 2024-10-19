@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Home | Faraz Rahman</title>
+  <link rel="stylesheet" href="/assets/libs/bootstrap/bootstrap.min.css">
+  <script defer src="/assets/libs/fontawesome/all.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+    <div class="container-fluid"> <!-- Added this container -->
+      <div class="row justify-content-center"> <!-- Added this row -->
+        <div class="col-12 col-md-10 col-lg-8 p-3 py-md-5"> <!-- Modified this div -->
+          <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
+  <div>
+    <a href="/" class="d-flex align-items-center text-decoration-none">
+      <span class="fs-4 fw-bold">Faraz Rahman</span>
+    </a>
+    <a href="/" class="d-flex align-items-center text-decoration-none">
+      <span>Robotics and Mathematics @ University of Pennsylvania</span>
+    </a>
+  </div>
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    
+      <a class="me-3 py-2 text-decoration-none" href="/projects">projects</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/cv">cv</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/contact">contact</a>
+    
+  </nav>
+</header>
+
+          <div class="row g-5 mb-5">
+  <div class="col-md-8 order-md-1 order-2">
+    <h3 class="fw-bold">About</h3>
+    <p>Hello! I am a Junior at Penn studying Computer Science and Mathematics. I am also pursuing an Accelerated Masters in Robotics from the GRASP Lab. My current interests are</p>
+<ul>
+  <li>Deep Learning</li>
+  <li>Applied Optimization</li>
+  <li>Controls for Robotics</li>
+</ul>
+
+<p>Recently, I have been working on finding <a href="/pdfs/Optimizing_for_representation_learning.pdf">better optimization methods for multi-task representation learning</a> with <a href="https://thomaszh3.github.io/">Thomas Zhang</a> and <a href="https://antonxue.github.io/">Anton Xue</a>. See more below!</p>
+
+<p>Outside of work, I play soccer, DJ for events around campus and am involved with Penn Student Government. Contact me at farazr [at] seas [dot] upenn [dot] edu.</p>
+
+  </div>
+  <div class="col-md-4 order-md-2 order-1 d-flex justify-content-md-end justify-content-center align-items-start">
+    <img src="/images/headshot.jpeg" alt="Home" class="img-fluid" style="max-width: 100%; height: auto; max-height: 300px; object-fit: cover;">
+  </div>
+</div>
+
+<h3 id="current-projects-header" class="fw-bold border-bottom pb-3 mb-5">Current Projects</h3>
+<div class="projects-container">
+    <!-- <h2>Projects</h2> -->
+    
+      
+        <div class="project-wrapper has-link">
+          
+            <a href="" class="project-item project-link" target="_blank" rel="noopener noreferrer">
+          
+            <img src="/images/mujoco_dog.png" alt="Controls for Robotics Project" class="project-image">
+            <div class="project-info">
+              <h3>Controls for Robotics Project</h3>
+              
+              
+                <p>In the eary stages of my controls for robotics project, hoping to design a walking quadroped or humanoid.</p>
+              
+              
+              
+              
+                <span class="link-indicator">Click to learn more</span>
+              
+            </div>
+          
+            </a>
+          
+        </div>
+      
+    
+      
+        <div class="project-wrapper has-link">
+          
+            <a href="/pdfs/Optimizing_for_representation_learning.pdf" class="project-item project-link" target="_blank" rel="noopener noreferrer">
+          
+            <img src="/images/repl.png" alt="Optimizing for Representation Learning" class="project-image">
+            <div class="project-info">
+              <h3>Optimizing for Representation Learning</h3>
+              
+              
+                <p>This project explores algorithms that split model training into two parts: learning representations (i.e. Phi)  and learning task heads (i.e. F^(t)). The work is motivated by the fact that classical methods don't work well in this setting.</p>
+              
+              
+              
+              
+                <span class="link-indicator">Click to learn more</span>
+              
+            </div>
+          
+            </a>
+          
+        </div>
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  
+  <style>
+    .projects-container {
+      margin: 2em 0;
+      padding: 0 20px; /* Add padding to the container */
+    }
+    .project-wrapper {
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .project-item {
+      display: flex;
+      align-items: flex-start;
+      padding: 1.5em 0;
+      background-color: transparent;
+      transition: background-color 0.3s ease;
+    }
+    .project-link {
+      text-decoration: none;
+      color: inherit;
+    }
+    .has-link:hover .project-item {
+      background-color: #f5f5f5;
+    }
+    .project-info {
+      flex: 1;
+    }
+    .link-indicator {
+      display: inline-block;
+      font-size: 0.8em;
+      color: #007bff;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .has-link:hover .link-indicator {
+      opacity: 1;
+    }
+  
+    @media (max-width: 768px) {
+      .project-item {
+        flex-direction: column;
+      }
+      .project-image {
+        width: 100%;
+        height: 200px;
+        margin-right: 0;
+        margin-bottom: 1em;
+        border-radius: 8px; /* Round the corners of the image */
+      }
+    }
+  </style>
+
+
+  
+    <style>
+      .project-image {
+        width: 200px;
+        height: 10  0px;
+        object-fit: cover;
+        margin-right: 2em;
+      }
+      .project-info h3 {
+        margin: 0 0 0.5em 0;
+        font-size: 1.2em;
+        color: #333;
+      }
+      .project-info p {
+        margin: 0 0 0.5em 0;
+        font-size: 0.9em;
+        color: #666;
+        line-height: 1.5;
+      }
+    </style>
+  
+
+<div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Writing</h3>
+    
+      <p><a href="http://localhost:4000/jekyll/update/2024/10/03/welcome-to-jekyll.html">Welcome to Jekyll!</a> - October 3, 2024</p>
+
+      <p><a href="http://localhost:4000/math/optimization/2023/10/04/test-post-w-math.html">Solving Least Squares</a> - October 4, 2023</p>
+
+  </div>
+</div>
+
+<style>
+  @media (max-width: 767.98px) {
+    .col-md-4.d-flex {
+      margin-bottom: 2rem;
+    }
+  }
+
+  #current-projects-header {
+    margin-bottom: 0 !important;
+    padding-bottom: 0.5rem !important;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  #current-projects-header + * {
+    margin-top: 1rem;
+  }
+</style>
+          <footer class="pt-5 my-5 text-muted border-top">
+  <div class="row">
+    <div class="col-md-6 text-end social-media-icons">
+      
+    </div>
+  </div>
+</footer>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

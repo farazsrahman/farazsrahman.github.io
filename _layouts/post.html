@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="container"> <!-- Add this container for better centering -->
+  <div class="row justify-content-center"> <!-- Center the content -->
+    <div class="col-md-8"> <!-- Reduce column width, adjust as needed -->
+      <div class="row g-5 mb-5">
+        <div class="col-md-12">
+          <h2 class="border-bottom pb-3 mb-5">{{ page.title }}</h2>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
