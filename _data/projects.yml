@@ -15,7 +15,8 @@
     two seperate problems since classical methods break down or don't work well in this setting.
   short_description: >-
     This project explores algorithms that split model training into two parts: learning representations (i.e. Phi) 
-    and learning task heads (i.e. F^(t)). The work is motivated by the fact that classical methods don't work well in this setting.
+    and learning task heads (i.e. F^(t)). The work is motivated by the fact that classical methods don't work well in this setting. 
+    Tap here to see a one-pager description written by the lead of this project Thomas Zhang.
   image: "/images/repl.png"
   link: "/pdfs/Optimizing_for_representation_learning.pdf"
   current: true
@@ -29,7 +30,7 @@
 
   image: "/images/swiftscore.png"
   link: "https://swiftscore.org"
-  current: false
+  current: true
 
 
 - title: "Decision Making Diffusion Models"
@@ -44,7 +45,7 @@
 
 
 
-- title: "TyPorch - C++ PyTorch Replica"
+- title: "TyPorch - C++ ML Compiler"
   description: >-
      TyPorch began as means for me to learn how ML works  beyond model.fit() after my freshman Big Data course, 
      but unintentionally became my first interaction with optimization algorithms, high performance (parallel)
@@ -54,6 +55,6 @@
 
   image: "/images/typorch.png"
   link: "https://github.com/farazsrahman/TyPorch"
-  current: false
+  current: true
 
 
