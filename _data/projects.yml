@@ -16,7 +16,7 @@
   short_description: >-
     This project explores algorithms that split model training into two parts: learning representations (i.e. Phi) 
     and learning task heads (i.e. F^(t)). The work is motivated by the fact that classical methods don't work well in this setting. 
-    Tap here to see a one-pager description written by the lead of this project Thomas Zhang.
+    Tap here to see a one page description written by the lead of this project Thomas Zhang.
   image: "/images/repl.png"
   link: "/pdfs/Optimizing_for_representation_learning.pdf"
   current: true
