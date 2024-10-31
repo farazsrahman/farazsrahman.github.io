@@ -1,18 +1,21 @@
-- title: "Controls for Robotics Project"
+- title: "Model-Based Learning for Locomotion"
   description: >-
-    Longer description on the way. In the eary stages of my controls for robotics project, hoping to design a walking quadroped or humanoid.
+    Working on an extension of the DIAL-MPC paper which used sampling-based MPC and a lot of compute to perform
+    legged locomotion tasks training-free. Our team is interested in incorporating learning to the algorithm
+    to reduce its computational demands. The goal is to test sim2real on the Unitree Go2 quadruped  platform.
   short_description: >-
-    In the eary stages of my controls for robotics project, hoping to design a walking quadroped or humanoid.
+    Working on an extension of the DIAL-MPC paper which used sampling-based MPC and a lot of compute to perform
+    legged locomotion tasks training-free. Our team is interested in incorporating learning into the algorithm
+    to reduce its computational demands. The goal is to test sim2real on the Unitree Go2 quadruped  platform.
   image: "/images/mujoco_dog.png"
-  link: ""
-  current: false
+  # link: ""
+  current: true
 
 - title: "Optimizing for Representation Learning"
   description: >-
-    The grand success of Deep Learning is often attributed to large models' ability to learn representations of data
-    suitable for more classical (or just simpler) machine learning methods take as input down stream. This project 
-    explores alternative algorithms that split learning representations maps (i.e. Phi) and learning task heads (i.e. F^(t)) into 
-    two seperate problems since classical methods break down or don't work well in this setting.
+    This project explores algorithms that split model training into two parts: learning representations (i.e. Phi) 
+    and learning task heads (i.e. F^(t)). The work is motivated by the fact that classical methods don't work well in this setting. 
+    Tap here to see a one page description written by the lead of this project Thomas Zhang.
   short_description: >-
     This project explores algorithms that split model training into two parts: learning representations (i.e. Phi) 
     and learning task heads (i.e. F^(t)). The work is motivated by the fact that classical methods don't work well in this setting. 
@@ -23,10 +26,10 @@
 
 - title: "SwiftScore"
   description: >-
-    SwiftScore is the world's first Assignment Management Platform -  a SaaS tool that aims to save teachers
-    time using AI-assisted grading, analytics, and remediation tools all in one. I worked on early engineering
-    for the platform, particularly on integrating our services with Google Classroom. I am still involved with
-    the company, although I am now focused on product and strategy.
+    I worked on early engineering for SwiftScore - the world's first Assignment Management Platform. The product is a SaaS tool 
+    that aims to save teachers time using AI-assisted grading, analytics, and remediation tools all in one. While engineering, 
+    I worked on integrating the Google Classroom API into our application. I am still involved with the company, although 
+    I now work on product and strategy.
 
   image: "/images/swiftscore.png"
   link: "https://swiftscore.org"
