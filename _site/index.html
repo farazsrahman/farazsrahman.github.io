@@ -14,16 +14,16 @@
 </head>
 
   <body>
-    <div class="container-fluid"> <!-- Added this container -->
-      <div class="row justify-content-center"> <!-- Added this row -->
-        <div class="col-12 col-md-10 col-lg-8 p-3 py-md-5"> <!-- Modified this div -->
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 p-3 py-md-5" style="max-width: 800px;">
           <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
   <div>
     <a href="/" class="d-flex align-items-center text-decoration-none">
       <span class="fs-4 fw-bold">Faraz Rahman</span>
     </a>
     <a href="/" class="d-flex align-items-center text-decoration-none">
-      <span>CS, Math and Robotics @ University of Pennsylvania</span>
+      <span>Math and Robotics @ University of Pennsylvania</span>
     </a>
   </div>
   <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
@@ -34,16 +34,16 @@
           <div class="row g-5 mb-5">
   <div class="col-md-8 order-md-1 order-2">
     <h3 class="fw-bold">About</h3>
-    <p>Hello! I am a Junior at Penn studying Computer Science and Mathematics. I am also pursuing an Accelerated Masters in Robotics from the GRASP Lab. My current interests are</p>
+    <p>Hello! I am a Junior at Penn studying Systems Engineering and Mathematics. I am also pursuing an Accelerated Masters in Robotics from the GRASP Lab. My current interests are</p>
 <ul>
-  <li>Deep Learning</li>
-  <li>Applied Optimization</li>
+  <li>Generative Models</li>
+  <li>Optimization for Deep Learning</li>
   <li>Controls for Robotics</li>
 </ul>
 
-<p>Recently, I have been working on finding better optimization methods for multi-task representation learning  with <a href="https://thomaszh3.github.io/">Thomas Zhang</a> – who wrote a wonderful writeup of the project <a href="/pdfs/Optimizing_for_representation_learning.pdf">here</a> – among others.</p>
+<p>Recently, I have been working on finding better optimization methods for multi-task representation learning  with <a href="https://thomaszh3.github.io/">Thomas Zhang</a> – who wrote a wonderful writeup of the project <a href="/pdfs/Optimizing_for_representation_learning.pdf">here</a>.</p>
 
-<p>I am currently on the search for engineering and research internships related to robotics or machine learning for the summer of 2025. If you are interested in learning more about my experience feel free to scroll through my projects below.</p>
+<p>I will be joining <a href="https://dynarobotics.ai/">Dyna Robotics</a> in 2025.</p>
 
 <p>Outside of work, I play soccer, DJ for events around campus and am involved with Penn Student Government. Contact me at farazr [at] seas [dot] upenn [dot] edu.</p>
 
@@ -53,30 +53,10 @@
   </div>
 </div>
 
-<h3 id="current-projects-header" class="fw-bold border-bottom pb-3 mb-5">Projects and Experience</h3>
+<h3 id="current-projects-header" class="fw-bold border-bottom pb-3 mb-5">Recent Work</h3>
 <div class="projects-container">
     <!-- <h2>Projects</h2> -->
     
-      
-        <div class="project-wrapper">
-          
-            <div class="project-item">
-          
-            <img src="/images/mujoco_dog.png" alt="Model-Based Learning for Locomotion" class="project-image">
-            <div class="project-info">
-              <h3>Model-Based Learning for Locomotion</h3>
-              
-              
-                <p>I am currently working on an extension of the DIAL-MPC paper which uses sampling-based optimization and a lot of compute to perform legged locomotion tasks training-free. Our team is interested in  incorporating learning into the algorithm to reduce its computational demands.  The goal is to test sim2real on the Unitree Go2 quadruped platform.</p>
-              
-              
-              
-              
-            </div>
-          
-            </div>
-          
-        </div>
       
     
       
@@ -89,7 +69,7 @@
               <h3>Optimizing for Representation Learning</h3>
               
               
-                <p>This project explores algorithms that split model training into two parts: learning representations (i.e. Phi)  and learning task heads (i.e. F^(t)). The work is motivated by the fact that classical methods don't work well in this setting.  Tap here to see a one page description written by the lead of this project Thomas Zhang.</p>
+                <p>We often forget the optimization and learning are not the same thing. This project explores algorithms that  can verifiably learn good representations of data in addition to minimizing loss.</p>
               
               
               
@@ -113,7 +93,7 @@
               <h3>SwiftScore</h3>
               
               
-                <p>I worked on early engineering for SwiftScore - the world's first Assignment Management Platform. The product is a SaaS tool  that aims to save teachers time using AI-assisted grading, analytics, and remediation tools all in one. While on the engineering team,  I worked on integrating the Google Classroom API into our application, and coordinated bi-weekly sprints. </p>
+                <p>I worked on early product design and engineering for SwiftScore - an AI-assisted EdTech Platform. My contributions include  integrating the Google Classroom, the Assignment Bank, and scaling the engineering team.</p>
               
               
               
@@ -128,51 +108,7 @@
       
     
       
-        <div class="project-wrapper has-link">
-          
-            <a href="/project/2024/10/19/decision-making-diffusion-models.html" class="project-item project-link" target="_blank" rel="noopener noreferrer">
-          
-            <img src="/images/diffusion.png" alt="Decision Making Diffusion Models" class="project-image">
-            <div class="project-info">
-              <h3>Decision Making Diffusion Models</h3>
-              
-              
-                <p>Thinking of DDPMS as a stochastic process, we explore how different time intervals in the diffusion  trajectory affect the features structure that shows up in the final sample. More importantly, I learned to  train large models on (multiple) GPUs, got my toes wet with generative modeling theory, and made a lot of cool friends while working on this project in Prof. Eric Wong's Brachio Lab under Anton Xue during my Sophomore summer.</p>
-              
-              
-              
-              
-                <span class="link-indicator">Click to learn more</span>
-              
-            </div>
-          
-            </a>
-          
-        </div>
-      
     
-      
-        <div class="project-wrapper has-link">
-          
-            <a href="https://github.com/farazsrahman/TyPorch" class="project-item project-link" target="_blank" rel="noopener noreferrer">
-          
-            <img src="/images/typorch.png" alt="TyPorch - C++ ML Compiler" class="project-image">
-            <div class="project-info">
-              <h3>TyPorch - C++ ML Compiler</h3>
-              
-              
-                <p>TyPorch began as means for me to learn how ML works  beyond model.fit() after my freshman Big Data course,  but unintentionally became my first interaction with optimization algorithms, high performance (parallel) computing, C++, and shaped many of my interests throughout the rest of my time at Penn. I was able to train moderately sized (10k parameter) feedforward models on toy data, but never finished working all the way through benchmarking on the  MNIST dataset.</p>
-              
-              
-              
-              
-                <span class="link-indicator">Click to learn more</span>
-              
-            </div>
-          
-            </a>
-          
-        </div>
       
     
   </div>

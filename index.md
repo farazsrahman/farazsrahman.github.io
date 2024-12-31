@@ -5,12 +5,14 @@ layout: home
 title: "Home"
 ---
 
-Hello! I am a Junior at Penn studying Computer Science and Mathematics. I am also pursuing an Accelerated Masters in Robotics from the GRASP Lab. My current interests are 
-- Deep Learning
-- Applied Optimization
+Hello! I am a Junior at Penn studying Systems Engineering and Mathematics. I am also pursuing an Accelerated Masters in Robotics from the GRASP Lab. My current interests are 
+- Generative Models
+- Optimization for Deep Learning
 - Controls for Robotics
 
-Recently, I have been working on finding better optimization methods for multi-task representation learning  with [Thomas Zhang](https://thomaszh3.github.io/) -- who wrote a wonderful writeup of the project [here](/pdfs/Optimizing_for_representation_learning.pdf). I will be joining [Dyna Robotics](https://dynarobotics.ai/) in 2025.
+Recently, I have been working on finding better optimization methods for multi-task representation learning  with [Thomas Zhang](https://thomaszh3.github.io/) -- who wrote a wonderful writeup of the project [here](/pdfs/Optimizing_for_representation_learning.pdf). 
+
+I will be joining [Dyna Robotics](https://dynarobotics.ai/) in 2025.
 
 
 Outside of work, I play soccer, DJ for events around campus and am involved with Penn Student Government. Contact me at farazr \[at\] seas \[dot\] upenn \[dot\] edu.

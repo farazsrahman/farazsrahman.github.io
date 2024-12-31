@@ -11,7 +11,7 @@
     The goal is to test sim2real on the Unitree Go2 quadruped platform.
   image: "/images/mujoco_dog.png"
   # link: ""
-  current: true
+  current: false
 
 - title: "Optimizing for Representation Learning"
   description: >-
@@ -19,9 +19,8 @@
     and learning task heads (i.e. F^(t)). The work is motivated by the fact that classical methods don't work well in this setting. 
     Tap here to see a one page description written by the lead of this project Thomas Zhang.
   short_description: >-
-    This project explores algorithms that split model training into two parts: learning representations (i.e. Phi) 
-    and learning task heads (i.e. F^(t)). The work is motivated by the fact that classical methods don't work well in this setting. 
-    Tap here to see a one page description written by the lead of this project Thomas Zhang.
+    We often forget the optimization and learning are not the same thing. This project explores algorithms that 
+    can verifiably learn good representations of data in addition to minimizing loss.
   image: "/images/repl.png"
   link: "/pdfs/Optimizing_for_representation_learning.pdf"
   current: true
@@ -32,6 +31,9 @@
     that aims to save teachers time using AI-assisted grading, analytics, and remediation tools all in one. While on the engineering team, 
     I worked on integrating the Google Classroom API into our application, and coordinated bi-weekly sprints. 
 
+  short_description: >-
+    I worked on early product design and engineering for SwiftScore - an AI-assisted EdTech Platform. My contributions include 
+    integrating the Google Classroom, the Assignment Bank, and scaling the engineering team.
   image: "/images/swiftscore.png"
   link: "https://swiftscore.org"
   current: true
@@ -45,7 +47,7 @@
     cool friends while working on this project in Prof. Eric Wong's Brachio Lab under Anton Xue during my Sophomore summer.
   image: "/images/diffusion.png"
   link: "/project/2024/10/19/decision-making-diffusion-models.html"
-  current: true
+  current: false
 
 
 
@@ -59,6 +61,6 @@
 
   image: "/images/typorch.png"
   link: "https://github.com/farazsrahman/TyPorch"
-  current: true
+  current: false
 
 
