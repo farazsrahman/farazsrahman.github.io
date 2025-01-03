@@ -19,7 +19,7 @@
     and learning task heads (i.e. F^(t)). The work is motivated by the fact that classical methods don't work well in this setting. 
     Tap here to see a one page description written by the lead of this project Thomas Zhang.
   short_description: >-
-    It's easy to forget the optimization and learning are not the same thing. This project explores algorithms that 
+    It's easy to forget that optimization and learning are not the equal. This project explores algorithms that 
     can learn representations of data provably better than SGD.
   image: "/images/repl.png"
   link: "/pdfs/Optimizing_for_representation_learning.pdf"
