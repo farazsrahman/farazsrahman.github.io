@@ -10,7 +10,7 @@
     incorporating learning into the algorithm to reduce its computational demands. 
     The goal is to test sim2real on the Unitree Go2 quadruped platform.
   image: "/images/mujoco_dog.png"
-  # link: ""
+  link: "/pdfs/fetch.pdf"
   current: false
 
 - title: "Optimizing for Representation Learning"
@@ -19,8 +19,8 @@
     and learning task heads (i.e. F^(t)). The work is motivated by the fact that classical methods don't work well in this setting. 
     Tap here to see a one page description written by the lead of this project Thomas Zhang.
   short_description: >-
-    We often forget the optimization and learning are not the same thing. This project explores algorithms that 
-    can verifiably learn good representations of data in addition to minimizing loss.
+    It's easy to forget the optimization and learning are not the same thing. This project explores algorithms that 
+    can learn representations of data provably better than SGD.
   image: "/images/repl.png"
   link: "/pdfs/Optimizing_for_representation_learning.pdf"
   current: true
