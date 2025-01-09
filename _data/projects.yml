@@ -45,9 +45,12 @@
     trajectory affect the features structure that shows up in the final sample. More importantly, I learned to 
     train large models on (multiple) GPUs, got my toes wet with generative modeling theory, and made a lot of
     cool friends while working on this project in Prof. Eric Wong's Brachio Lab under Anton Xue during my Sophomore summer.
+  short_description: >-
+    Recalling that DDPM generations are a stochastic process, can we use the variance of the final sample conditioned 
+    one some intermediate point to assess which features are generated at what interval in the diffusion process? We say yes.
   image: "/images/diffusion.png"
   link: "/project/2024/10/19/decision-making-diffusion-models.html"
-  current: false
+  current: true
 
 
 
