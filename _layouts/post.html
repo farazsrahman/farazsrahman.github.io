@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<div class="container"> <!-- Add this container for better centering -->
-  <div class="row justify-content-center"> <!-- Center the content -->
-    <div class="col-md-8"> <!-- Reduce column width, adjust as needed -->
+<div style="margin-left: 0; margin-right: 0;"> <!-- Remove left-right margin -->
+  <div class="row"> <!-- Remove justify-content-center to allow full width -->
+    <div class="col-12"> <!-- Use full width column -->
       <div class="row g-5 mb-5">
-        <div class="col-md-12">
+        <div class="col-12">
           <h2 class="border-bottom pb-3 mb-5">{{ page.title }}</h2>
           {{ content }}
         </div>

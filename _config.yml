@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: http://localhost:4000 # comment this out for deployment
 url: "http://farazsrahman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:title # this is the default permalink for posts
 twitter_username: farazsrahman
 github_username:  farazsrahman
 
