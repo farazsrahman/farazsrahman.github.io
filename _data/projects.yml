@@ -29,11 +29,11 @@
   description: >-
     I worked on early engineering for SwiftScore - the world's first Assignment Management Platform. The product is a SaaS tool 
     that aims to save teachers time using AI-assisted grading, analytics, and remediation tools all in one. While on the engineering team, 
-    I worked on integrating the Google Classroom API into our application, and coordinated bi-weekly sprints. 
+    I worked on integrating Google Classroom API into our application, and coordinated bi-weekly sprints. 
 
   short_description: >-
-    I worked on early product design and engineering for SwiftScore - an AI-assisted EdTech Platform. My contributions include 
-    integrating the Google Classroom, the Assignment Bank, and scaling the engineering team.
+    I worked on product design and engineering for SwiftScore - an AI EdTech Platform. My contributions include 
+    integrating Google Classroom, designing the Assignment Bank, and scaling the engineering team.
   image: "/images/swiftscore.png"
   link: "https://swiftscore.org"
   current: true
@@ -48,13 +48,13 @@
   short_description: >-
     Given a diffusion trajectory and some set of features in the final sample, can we ascribe a timeline for feature generation using 
     some form of mechanistic interpretability? Considering the variance of a final sample of the diffusion process conditioned on intermediate points, we answer yes.
-  image: "/images/diffusion.png"
-  link: "/project/2024/10/19/decision-making-diffusion-models.html"
+  image: "/images/butterfly.gif"
+  link: "decision-making-diffusion-models"
   current: true
 
 
 
-- title: "TyPorch - C++ ML Compiler"
+- title: "TyPorch"
   description: >-
      TyPorch began as means for me to learn how ML works  beyond model.fit() after my freshman Big Data course, 
      but unintentionally became my first interaction with optimization algorithms, high performance (parallel)
@@ -62,8 +62,12 @@
      to train moderately sized (10k parameter) feedforward models on toy data, but never finished working all
      the way through benchmarking on the  MNIST dataset.
 
+  short_description: >-
+     This is a homebrewed C++ deep learning compiler that lets you design your own sequential models and run optimization 
+     algorithms such as stochastic gradient descent. Check out the repo for more!
+
   image: "/images/typorch.png"
   link: "https://github.com/farazsrahman/TyPorch"
-  current: false
+  current: true
 
 
