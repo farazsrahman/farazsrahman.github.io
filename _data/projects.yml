@@ -22,7 +22,7 @@
     It's easy to forget that optimization and learning are not the equal. This project explores algorithms that 
     can learn representations of data provably better than SGD.
   image: "/images/repl.png"
-  link: "/pdfs/Optimizing_for_representation_learning.pdf"
+  link: "https://arxiv.org/abs/2502.01763"
   current: true
 
 - title: "SwiftScore"

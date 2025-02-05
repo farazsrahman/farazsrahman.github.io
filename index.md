@@ -5,7 +5,9 @@ layout: home
 title: "Home"
 ---
 
-Hello! I am an undergrad  advised by [Nikolai Matni](https://nikolaimatni.github.io/) in the [GRASP Lab](https://www.grasp.upenn.edu/). During Spring 2025, I will be joining [Dyna Robotics](https://dynarobotics.ai/) as an research intern under [Jason Ma](https://jasonma2016.github.io/). I have been lucky to get my hands on 
+Hello! I am an undergrad  advised by [Nikolai Matni](https://nikolaimatni.github.io/) in the [GRASP Lab](https://www.grasp.upenn.edu/). During Spring 2025, I will be joining [Dyna Robotics](https://dynarobotics.ai/) as an intern under [Jason Ma](https://jasonma2016.github.io/). 
+
+I have been lucky to get my hands on 
 - Generative Models
 - Optimization for Deep Learning
 - Controls for Robotics
