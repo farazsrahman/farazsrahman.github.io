@@ -1,3 +1,14 @@
+- title: "Dynamism-v1"
+  description: >-
+    DYNA-1 was the first demonstration of a end-to-end robotics policy performing a task without help for over 24 hours.
+    This project was a combined effort of the many talented researchers, engineers, and operations folks at Dyna Robotics.
+  short_description: >-
+    DYNA-1 was the first ever demonstration of a end-to-end robot learning policy robustly performing a task over 24 hours.
+    This project was the combined effort of the entire team at Dyna Robotics.
+  image: "/images/Dyna-1-24hr.gif"
+  link: "https://www.dyna.co/dyna-1/research"
+  current: true
+
 - title: "Model-Based Learning for Locomotion"
   description: >-
     I am currently working on an extension of the DIAL-MPC paper which uses sampling-based optimization
@@ -13,15 +24,16 @@
   link: "/pdfs/fetch.pdf"
   current: false
 
-- title: "Optimizing for Representation Learning"
+- title: "Layer-wise Preconditioners & Provable Feature Learning"
   description: >-
-    This project explores algorithms that split model training into two parts: learning representations (i.e. Phi) 
-    and learning task heads (i.e. F^(t)). The work is motivated by the fact that classical methods don't work well in this setting. 
-    Tap here to see a one page description written by the lead of this project Thomas Zhang.
+    Recent excitement around layer-wise preconditioners (e.g. Shampoo, SOAP) had grown due to 
+    strong performance in online competitions such as AlgoPerf. We pose the question of *why* these methods perform well
+    and answer them by studying linear representation learning which naive SGD catastrophically fails on. 
+    This project was lead by Thomas Zhang and featured in ICML 2025.
   short_description: >-
-    It's easy to forget that optimization and learning are not the equal. This project explores algorithms that 
-    can learn representations of data provably better than SGD.
-  image: "/images/repl.png"
+    We study layer-wise preconditioners in a (seemingly benign) setting where SGD fails and derive principled insights into their effectiveness. 
+    This project was lead by Thomas Zhang and featured at ICML 2025.
+  image: "/images/SSSweepKFAC.png"
   link: "https://arxiv.org/abs/2502.01763"
   current: true
 
