@@ -5,7 +5,7 @@ layout: home
 title: "Home"
 ---
 
-Hello! I am an undergrad advised by [Nikolai Matni](https://nikolaimatni.github.io/) in the [GRASP Lab](https://www.grasp.upenn.edu/). Previously I was an MTS at [Dyna Robotics](https://dynarobotics.ai/) interning under [Jason Ma](https://jasonma2016.github.io/). 
+Hello! I am an undergrad advised by [Nikolai Matni](https://nikolaimatni.github.io/) in the [GRASP Lab](https://www.grasp.upenn.edu/). Previously, I was an MTS at [Dyna Robotics](https://dynarobotics.ai/) interning under [Jason Ma](https://jasonma2016.github.io/). 
 
 I am interested in 
 - The Physics of Deep Learning
