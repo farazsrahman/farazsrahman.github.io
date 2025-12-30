@@ -41,7 +41,7 @@
 
 
 <p>For fun, I play soccer, olympic-lift, DJ, listen to all sorts of music. </p>
-<p>Recently, I have been writing <a href="#writing-header">notes</a> on things I've learned</p>
+<p>Recently, I have been writing <a href="#notes-header">notes</a> on things I've learned</p>
 
 <p>Here is my <a href="mailto:farazr@seas.upenn.edu">email</a>, <a href="https://x.com/farazsrahman">twitter</a>, <a href="https://scholar.google.com/citations?user=oGX78JwAAAAJ&hl=en">scholar</a></p>
 
@@ -53,11 +53,11 @@
 <div style="height: 1cm;"></div>
 
   <input type="radio" id="toggle-projects" name="view-toggle" checked style="display:none">
-  <input type="radio" id="toggle-writing" name="view-toggle" style="display:none">
+  <input type="radio" id="toggle-notes" name="view-toggle" style="display:none">
 
   <div class="toggle-wrapper">
     <label for="toggle-projects">Projects</label>
-    <label for="toggle-writing" id="writing-header">Writing</label>
+    <label for="toggle-notes" id="notes-header">Notes</label>
   </div>
 
     <style>
@@ -82,12 +82,12 @@
       }
 
       #toggle-projects:checked ~ .toggle-wrapper label[for="toggle-projects"],
-      #toggle-writing:checked ~ .toggle-wrapper label[for="toggle-writing"] {
+      #toggle-notes:checked ~ .toggle-wrapper label[for="toggle-notes"] {
         color: #000;
       }
 
 
-    #projects-section, #writing-section {
+    #projects-section, #notes-section {
       display: none;
     }
 
@@ -95,7 +95,7 @@
       display: block;
     }
 
-    #toggle-writing:checked ~ #writing-section {
+    #toggle-notes:checked ~ #notes-section {
       display: block;
     }
 
@@ -302,7 +302,7 @@
     </div>
 </div>
 
-<div id="writing-section">
+<div id="notes-section">
   <p>Notes on Acceleration in Optimization</p>
 </div>
 
@@ -320,13 +320,13 @@
     <script>
       // Handle anchor links to switch the toggle
       window.addEventListener('hashchange', function() {
-        if (window.location.hash === '#writing-header') {
-          document.getElementById('toggle-writing').checked = true;
+        if (window.location.hash === '#notes-header') {
+          document.getElementById('toggle-notes').checked = true;
         }
       });
       // Initial check on load
-      if (window.location.hash === '#writing-header') {
-        document.getElementById('toggle-writing').checked = true;
+      if (window.location.hash === '#notes-header') {
+        document.getElementById('toggle-notes').checked = true;
       }
     </script>
   </body>
