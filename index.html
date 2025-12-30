@@ -52,52 +52,50 @@
 
 <div style="height: 1cm;"></div>
 
-<div class="toggle-wrapper">
-  <input type="radio" id="toggle-projects" name="view-toggle" checked>
-  <label for="toggle-projects">Projects</label>
-  <input type="radio" id="toggle-writing" name="view-toggle">
-  <label for="toggle-writing" id="writing-header">Writing</label>
-</div>
+  <input type="radio" id="toggle-projects" name="view-toggle" checked style="display:none">
+  <input type="radio" id="toggle-writing" name="view-toggle" style="display:none">
 
-<style>
-  .toggle-wrapper {
-    display: inline-flex;
-    background-color: #f1f3f4;
-    padding: 4px;
-    border-radius: 8px;
-    margin-bottom: 1.5rem;
-  }
+  <div class="toggle-wrapper">
+    <label for="toggle-projects">Projects</label>
+    <label for="toggle-writing" id="writing-header">Writing</label>
+  </div>
 
-  .toggle-wrapper input[type="radio"] {
-    display: none;
-  }
+  <style>
+    .toggle-wrapper {
+      display: inline-flex;
+      background-color: #f1f3f4;
+      padding: 4px;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+    }
 
-  .toggle-wrapper label {
-    padding: 6px 16px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 1.25rem;
-    margin-bottom: 0;
-    transition: background-color 0.2s, color 0.2s;
-  }
+    .toggle-wrapper label {
+      padding: 6px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 1.25rem;
+      margin-bottom: 0;
+      transition: background-color 0.2s, color 0.2s;
+    }
 
-  .toggle-wrapper input[type="radio"]:checked + label {
-    background-color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  }
+    #toggle-projects:checked ~ .toggle-wrapper label[for="toggle-projects"],
+    #toggle-writing:checked ~ .toggle-wrapper label[for="toggle-writing"] {
+      background-color: #ffffff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
 
-  #projects-section, #writing-section {
-    display: none;
-  }
+    #projects-section, #writing-section {
+      display: none;
+    }
 
-  #toggle-projects:checked ~ #projects-section {
-    display: block;
-  }
+    #toggle-projects:checked ~ #projects-section {
+      display: block;
+    }
 
-  #toggle-writing:checked ~ #writing-section {
-    display: block;
-  }
+    #toggle-writing:checked ~ #writing-section {
+      display: block;
+    }
 
   .projects-container {
     margin: 0 0 2em 0;
