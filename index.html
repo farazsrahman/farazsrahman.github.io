@@ -60,30 +60,32 @@
     <label for="toggle-writing" id="writing-header">Writing</label>
   </div>
 
-  <style>
-    .toggle-wrapper {
-      display: inline-flex;
-      background-color: #f1f3f4;
-      padding: 4px;
-      border-radius: 8px;
-      margin-bottom: 1.5rem;
-    }
+    <style>
+      .toggle-wrapper {
+        display: inline-flex;
+        gap: 24px;
+        margin-bottom: 1.5rem;
+      }
 
-    .toggle-wrapper label {
-      padding: 6px 16px;
-      border-radius: 6px;
-      cursor: pointer;
-      font-weight: 700;
-      font-size: 1.25rem;
-      margin-bottom: 0;
-      transition: background-color 0.2s, color 0.2s;
-    }
+      .toggle-wrapper label {
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+        transition: color 0.2s;
+        color: #999;
+        padding: 0;
+      }
 
-    #toggle-projects:checked ~ .toggle-wrapper label[for="toggle-projects"],
-    #toggle-writing:checked ~ .toggle-wrapper label[for="toggle-writing"] {
-      background-color: #ffffff;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    }
+      .toggle-wrapper label:hover {
+        color: #666;
+      }
+
+      #toggle-projects:checked ~ .toggle-wrapper label[for="toggle-projects"],
+      #toggle-writing:checked ~ .toggle-wrapper label[for="toggle-writing"] {
+        color: #000;
+      }
+
 
     #projects-section, #writing-section {
       display: none;
